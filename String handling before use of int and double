@@ -1,0 +1,19 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+
+	int n = sc.nextInt();
+	double m = sc.nextDouble();
+	//When int and double before use of string that time you have to use sc.nextLine(); 
+	sc.nextLine();
+	String o = sc.nextLine();
+
+	System.out.println(o);
+	System.out.println(m);
+	System.out.println(n);
+    }
+}
